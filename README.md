@@ -2,6 +2,17 @@
 
 macOS 어학 학습 앱. 유튜브 영상의 발음·억양·리듬을 내 녹음과 비교한다.
 
+## 스크린샷
+
+| 메인 화면 | 자막 비교 |
+|---|---|
+| ![main](docs/screenshot-main.png) | ![compare](docs/screenshot-compare.png) |
+
+| 녹음 후 유사도 |
+|---|
+| ![similarity](docs/screenshot-similarity.png) |
+
+
 ## 기능
 
 - 유튜브 링크에서 오디오 다운로드 (yt-dlp)
