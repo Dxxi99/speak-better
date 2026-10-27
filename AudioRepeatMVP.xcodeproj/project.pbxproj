@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+        A1000001 = {isa = PBXBuildFile; fileRef = A2000001; };
+        A1000002 = {isa = PBXBuildFile; fileRef = A2000002; };
+        A1000003 = {isa = PBXBuildFile; fileRef = A2000003; };
+        A1000004 = {isa = PBXBuildFile; fileRef = A2000004; };
+        A1000005 = {isa = PBXBuildFile; fileRef = A2000005; };
+        A1000006 = {isa = PBXBuildFile; fileRef = A2000006; };
+        A1000007 = {isa = PBXBuildFile; fileRef = A2000007; };
+        A1000008 = {isa = PBXBuildFile; fileRef = A2000008; };
+        A1000009 = {isa = PBXBuildFile; fileRef = A2000009; };
+        A1000010 = {isa = PBXBuildFile; fileRef = A2000010; };
+        A1000011 = {isa = PBXBuildFile; fileRef = A2000011; };
+        A1000012 = {isa = PBXBuildFile; fileRef = A2000012; };
+        A1000013 = {isa = PBXBuildFile; fileRef = A2000013; };
+        A1000014 = {isa = PBXBuildFile; fileRef = A2000014; };
+        A1000015 = {isa = PBXBuildFile; fileRef = A2000015; };
+        A1000017 = {isa = PBXBuildFile; fileRef = A2000017; };
+        A1000018 = {isa = PBXBuildFile; fileRef = A2000018; };
+        A1000019 = {isa = PBXBuildFile; fileRef = A2000019; };
+
+        A2000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRepeatMVPApp.swift; sourceTree = "<group>"; };
+        A2000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        A2000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+        A2000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+        A2000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackManager.swift; sourceTree = "<group>"; };
+        A2000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderManager.swift; sourceTree = "<group>"; };
+        A2000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformAnalyzer.swift; sourceTree = "<group>"; };
+        A2000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+        A2000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+        A2000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImportService.swift; sourceTree = "<group>"; };
+        A2000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleService.swift; sourceTree = "<group>"; };
+        A2000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchAnalyzer.swift; sourceTree = "<group>"; };
+        A2000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchCurveView.swift; sourceTree = "<group>"; };
+        A2000014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperService.swift; sourceTree = "<group>"; };
+        A2000015 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSeparatorService.swift; sourceTree = "<group>"; };
+        A2000017 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmAnalyzer.swift; sourceTree = "<group>"; };
+        A2000018 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+        A2000019 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeBrowser.swift; sourceTree = "<group>"; };
+        A3000001 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A4000001 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioRepeatMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+
+        A5000002 = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        A6000001 = {
+            isa = PBXGroup;
+            children = (A6000002, A3000001, A6000003);
+            sourceTree = "<group>";
+        };
+        A6000002 = {
+            isa = PBXGroup;
+            children = (A2000001, A2000002, A2000003, A2000004, A2000005, A2000006, A2000007, A2000008, A2000009, A2000010, A2000011, A2000012, A2000013, A2000014, A2000015, A2000017, A2000018, A2000019);
+            path = Sources;
+            sourceTree = "<group>";
+        };
+        A6000003 = {
+            isa = PBXGroup;
+            children = (A4000001);
+            name = Products;
+            sourceTree = "<group>";
+        };
+
+        A7000001 = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A9000002;
+            buildPhases = (A5000001, A5000002, A5000003);
+            buildRules = ();
+            dependencies = ();
+            name = AudioRepeatMVP;
+            productName = AudioRepeatMVP;
+            productReference = A4000001;
+            productType = "com.apple.product-type.application";
+        };
+
+        A8000001 = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 1500;
+                LastUpgradeCheck = 1500;
+                TargetAttributes = {
+                    A7000001 = {CreatedOnToolsVersion = 15.0; };
+                };
+            };
+            buildConfigurationList = A9000001;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = ko;
+            hasScannedForEncodings = 0;
+            knownRegions = (ko, en, Base);
+            mainGroup = A6000001;
+            productRefGroup = A6000003;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (A7000001);
+        };
+
+        A5000003 = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        A5000001 = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (A1000001, A1000002, A1000003, A1000004, A1000005, A1000006, A1000007, A1000008, A1000009, A1000010, A1000011, A1000012, A1000013, A1000014, A1000015, A1000017, A1000018, A1000019);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        A9000101 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+                MACOSX_DEPLOYMENT_TARGET = 15.0;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = macosx;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        A9000102 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu11;
+                MACOSX_DEPLOYMENT_TARGET = 15.0;
+                SDKROOT = macosx;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+            };
+            name = Release;
+        };
+        A9000201 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = "";
+                CODE_SIGN_STYLE = Automatic;
+                COMBINE_HIDPI_IMAGES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                ENABLE_HARDENED_RUNTIME = NO;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.local.audiorepeatmvp";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+            };
+            name = Debug;
+        };
+        A9000202 = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = "";
+                CODE_SIGN_STYLE = Automatic;
+                COMBINE_HIDPI_IMAGES = YES;
+                CURRENT_PROJECT_VERSION = 1;
+                ENABLE_HARDENED_RUNTIME = NO;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.local.audiorepeatmvp";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+            };
+            name = Release;
+        };
+
+        A9000001 = {
+            isa = XCConfigurationList;
+            buildConfigurations = (A9000101, A9000102);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        A9000002 = {
+            isa = XCConfigurationList;
+            buildConfigurations = (A9000201, A9000202);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+    };
+    rootObject = A8000001;
+}

@@ -1,0 +1,17 @@
+# Build
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.app
+
+# macOS
+.DS_Store
+._*
+
+# 모델 파일 (1.5GB, 절대 커밋 금지)
+*.bin
+*.gguf
+
+# 로그
+*.log
